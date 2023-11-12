@@ -7,27 +7,63 @@
     android:orientation="vertical"
     tools:context=".MainActivity" >
 
-    <Button
-        android:id="@+id/button"
+    <TextView
+        android:id="@+id/textViewResultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="0" />
 
-    <Button
-        android:id="@+id/button2"
+    <EditText
+        android:id="@+id/editTextNumberA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:ems="10"
+        android:inputType="number" />
 
-    <Button
-        android:id="@+id/button3"
+    <EditText
+        android:id="@+id/editTextNumberB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:ems="10"
+        android:inputType="number" />
 
-    <Button
-        android:id="@+id/button4"
+    <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </TableRow>
+    </TableLayout>
+
 </LinearLayout>
