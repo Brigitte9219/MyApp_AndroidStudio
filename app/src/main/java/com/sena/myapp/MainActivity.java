@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
 
                 // Muestra un mensaje en la interfaz de usuario
-                showToast("Hiciste clic en el botón y pasaste a otra actividad");
+                showToast("Hiciste clic en el botón y pasaste a la página No 2");
             }
         });
     }
