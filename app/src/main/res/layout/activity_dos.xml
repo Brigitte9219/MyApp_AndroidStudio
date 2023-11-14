@@ -11,7 +11,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RadioButton"
+        android:text="Bienvenid@"
         android:textColor="@color/black"
         android:textSize="40sp"
         android:textStyle="bold"
@@ -25,12 +25,13 @@
         android:id="@+id/textView"
         android:layout_width="301dp"
         android:layout_height="58dp"
+        android:background="#CDDC39"
+        android:gravity="center"
         android:text="Cual es su nombre?"
         android:textColor="@color/black"
         android:textSize="30sp"
-        android:textStyle="normal"
+        android:textStyle="bold"
         android:typeface="normal"
-        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,8 +40,9 @@
 
     <RadioGroup
         android:id="@+id/grupoRadio"
-        android:layout_width="293dp"
+        android:layout_width="301dp"
         android:layout_height="144dp"
+        android:background="#CDDC39"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,9 +55,9 @@
             android:layout_height="wrap_content"
             android:text="Alexander Bejarano"
             android:textColor="@color/black"
-            android:textSize="20sp"
-            android:textStyle="normal"
-            android:typeface="normal"/>
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
 
         <RadioButton
             android:id="@+id/radioOpcion2"
@@ -63,9 +65,9 @@
             android:layout_height="wrap_content"
             android:text="Brigitte Padilla"
             android:textColor="@color/black"
-            android:textSize="20sp"
-            android:textStyle="normal"
-            android:typeface="normal"/>
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
 
         <RadioButton
             android:id="@+id/radioOpcion3"
@@ -73,9 +75,9 @@
             android:layout_height="wrap_content"
             android:text="Invitado"
             android:textColor="@color/black"
-            android:textSize="20sp"
-            android:textStyle="normal"
-            android:typeface="normal"/>
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
 
     </RadioGroup>
 
